@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html 
+  lang="en" 
+  th:replace="~{base :: parent(~{::#content},~{::title},~{::script})}"
+>
+  <head>
+    <title>Home | Smart Contact Manager</title>
+  </head>
+  <body>
+    <div id="content" class="py-16 px-6 bg-gray-50 dark:bg-gray-900">
+      <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between bg-white dark:bg-gray-800 p-10 rounded-xl shadow-md mb-16">
+        <img 
+          src="/images/hero-image.jpg" 
+          alt="SCM Hero" 
+          class="w-full md:w-1/2 rounded-lg shadow-sm mb-6 md:mb-0 md:mr-10"
+        />
+        <div class="text-center md:text-left md:w-1/2">
+          <h1 class="text-4xl font-bold text-gray-800 dark:text-white mb-4">Start Managing Your Contacts in the Cloud</h1>
+          <p class="text-lg text-gray-600 dark:text-gray-300 mb-6">
+            The simplest way to organize, manage, and communicate with your contacts — from anywhere.
+          </p>
+          <div class="flex flex-col md:flex-row md:space-x-4 justify-center md:justify-start">
+            
+            <a href="http://localhost:8081/register">
+                <button class="bg-[#4a90e2] text-white px-6 py-3 rounded-md text-lg mb-3 md:mb-0">
+                  Get Started
+                </button>
+
+            <a href="http://localhost:8081/login">
+              <button class="bg-gray-200 dark:bg-gray-700 dark:text-white text-gray-800 px-6 py-3 rounded-md text-lg">
+                Login
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="max-w-6xl mx-auto text-center">
+        <h2 class="text-3xl font-semibold text-gray-800 dark:text-white mb-4">Features of SCM</h2>
+        <p class="text-lg text-gray-600 dark:text-gray-300 mb-10">
+          Everything you need to manage your contacts, in one intuitive platform.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md text-left hover:shadow-lg transition duration-300">
+            <div class="text-4xl text-[#4a90e2] mb-4">📡</div>
+            <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Cloud Contact Storage</h3>
+            <p class="text-gray-700 dark:text-gray-300">Securely store your contacts online and access them from anywhere.</p>
+          </div>
+          <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md text-left hover:shadow-lg transition duration-300">
+            <div class="text-4xl text-[#4a90e2] mb-4">✉️</div>
+            <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Send Emails Instantly</h3>
+            <p class="text-gray-700 dark:text-gray-300">Compose and send emails with text and attachments directly from the app.</p>
+          </div>
+          <div class="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-md text-left hover:shadow-lg transition duration-300">
+            <div class="text-4xl text-[#4a90e2] mb-4">📤</div>
+            <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Export to Excel</h3>
+            <p class="text-gray-700 dark:text-gray-300">Download your entire contact list in Excel format for offline access or sharing.</p>
+          </div>
+        </div>
+        <div class="mt-12 flex justify-center">
+            <a href="http://localhost:8081/register">
+              <button class="bg-[#4a90e2] text-white px-8 py-3 rounded-md text-lg">
+                Let's Get Started
+              </button>
+            </a>
+          </div>
+          
+          
+      </div>
+    </div>
+
+    <script>console.log("Home page");</script>
+  </body>
+</html>

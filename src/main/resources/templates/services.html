@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html 
+  lang="en" 
+  th:replace="~{base :: parent(~{::#content},~{::title},~{::script})}"
+>
+  <head>
+    <title>Services</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="content" class="text-center py-20 px-6 bg-gray-50 dark:bg-gray-900">
+      <h1 class="text-5xl font-extrabold mb-6 text-gray-800 dark:text-white">Services</h1>
+      <p class="text-xl text-gray-600 dark:text-gray-300 mb-14 max-w-3xl mx-auto leading-relaxed">
+        Smart Contact Manager offers a suite of powerful tools to make managing contacts seamless and efficient.
+      </p>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-10 max-w-6xl mx-auto text-left">
+        <!-- Service Card -->
+        <div class="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-md hover:shadow-2xl transition-transform transform hover:-translate-y-1 duration-300">
+          <h2 class="text-2xl font-semibold text-[#4a90e2] mb-3">📇 Contact Management</h2>
+          <p class="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
+            Add, update, delete, favorite, and search contacts. Organize your address book in one central hub.
+          </p>
+        </div>
+
+        <!-- Service Card -->
+        <div class="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-md hover:shadow-2xl transition-transform transform hover:-translate-y-1 duration-300">
+          <h2 class="text-2xl font-semibold text-[#4a90e2] mb-3">🔐 Secure Authentication</h2>
+          <p class="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
+            Sign up with email or social logins (Google/GitHub), and verify users through secure email links.
+          </p>
+        </div>
+
+        <!-- Service Card -->
+        <div class="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-md hover:shadow-2xl transition-transform transform hover:-translate-y-1 duration-300">
+          <h2 class="text-2xl font-semibold text-[#4a90e2] mb-3">🖼 Cloud Media Storage</h2>
+          <p class="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
+            Upload and store contact profile pictures securely on AWS or Cloudinary with fast, optimized delivery.
+          </p>
+        </div>
+
+        <!-- Service Card -->
+        <div class="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-md hover:shadow-2xl transition-transform transform hover:-translate-y-1 duration-300">
+          <h2 class="text-2xl font-semibold text-[#4a90e2] mb-3">✉️ Integrated Email</h2>
+          <p class="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
+            Send rich emails directly from your dashboard with support for text formatting and file attachments.
+          </p>
+        </div>
+      </div>
+
+      <div class="mt-20 text-xl text-gray-600 dark:text-gray-400 font-medium">
+        <p>Everything you need to stay organized and connected — only with <span class="text-[#4a90e2] font-semibold">SCM</span>.</p>
+      </div>
+    </div>
+
+    <script>console.log("Services page");</script>
+  </body>
+</html>

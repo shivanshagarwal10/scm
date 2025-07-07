@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" th:replace="~{base :: parent(~{::#content},~{::title},~{::script})}">
+  <head>
+    <title>About SCM</title>
+  </head>
+  <body>
+    <div id="content" class="py-16 px-6 bg-gray-50 dark:bg-gray-900">
+      <div class="max-w-5xl mx-auto bg-white dark:bg-gray-800 p-10 rounded-xl shadow-md">
+
+        <!-- Heading -->
+        <h1 class="text-4xl font-bold text-center text-gray-800 dark:text-white mb-6">About Smart Contact Manager</h1>
+        <p class="text-xl text-center text-gray-600 dark:text-gray-300 mb-10">
+          A modern and powerful contact management tool designed to simplify how you manage, interact with, and maintain your contacts.
+        </p>
+
+        <!-- 1. Brand Story and Mission -->
+        <div class="space-y-4 text-left mb-12">
+          <h2 class="text-2xl font-semibold text-[#4a90e2]">🌟 Our Story & Mission</h2>
+          <p class="text-lg text-gray-700 dark:text-gray-300">
+            SCM was born from the frustration of managing scattered contact information. We started this project to make contact management seamless, secure, and smart.
+          </p>
+          <p class="text-lg text-gray-700 dark:text-gray-300">
+            Our mission is to empower individuals and businesses to organize and communicate effectively. We value privacy, usability, and continuous innovation.
+          </p>
+        </div>
+
+        <!-- 2. Who You Serve -->
+        <div class="space-y-4 text-left mb-12">
+          <h2 class="text-2xl font-semibold text-[#4a90e2]">🎯 Who We Help</h2>
+          <p class="text-lg text-gray-700 dark:text-gray-300">
+            Whether you're a freelancer, team leader, or small business owner, SCM helps you manage contacts and communication all in one place.
+          </p>
+          <p class="text-lg text-gray-700 dark:text-gray-300">
+            We stand out with robust security, intuitive UI, and integrations that make communication effortless.
+          </p>
+        </div>
+
+        <!-- 3. Team Introduction -->
+        <div class="space-y-4 text-left mb-12">
+          <h2 class="text-2xl font-semibold text-[#4a90e2]">👥 Meet Our Team</h2>
+          <p class="text-lg text-gray-700 dark:text-gray-300">
+            Our passionate team of developers, designers, and product managers are dedicated to making SCM the best it can be.
+          </p>
+          <!-- Add team photos and bios here if needed -->
+        </div>
+
+        <!-- 4. Key Features -->
+        <div class="space-y-8 text-left">
+          <h2 class="text-2xl font-semibold text-[#4a90e2] mb-2">🔧 Features</h2>
+
+          <div>
+            <h3 class="text-xl font-semibold text-gray-800 dark:text-white">🔐 User Authentication</h3>
+            <ul class="list-disc list-inside text-lg text-gray-700 dark:text-gray-300">
+              <li>User signup using email and password</li>
+              <li>Email verification via secure link</li>
+              <li>Login with Google and GitHub</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-semibold text-gray-800 dark:text-white">📇 Contact Management</h3>
+            <ul class="list-disc list-inside text-lg text-gray-700 dark:text-gray-300">
+              <li>Add contacts with profile pictures</li>
+              <li>Cloud image storage via AWS or Cloudinary</li>
+              <li>Search, paginate, favorite, update, and delete contacts</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-semibold text-gray-800 dark:text-white">✉️ Email Integration</h3>
+            <ul class="list-disc list-inside text-lg text-gray-700 dark:text-gray-300">
+              <li>Compose emails with attachments directly from the dashboard</li>
+              <li>Send text + files in one click</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-semibold text-gray-800 dark:text-white">📤 Export & Profile</h3>
+            <ul class="list-disc list-inside text-lg text-gray-700 dark:text-gray-300">
+              <li>Export all contacts to Excel</li>
+              <li>Edit your profile info including name, email, and image</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- 5. Call to Action -->
+        <div class="mt-12 text-center text-xl text-gray-600 dark:text-gray-400">
+          <p>Manage smarter. Connect better. <strong>Start using SCM today.</strong></p>
+        </div>
+
+        <!-- 6. Contact Info -->
+        <div class="mt-12 text-center text-md text-gray-500 dark:text-gray-400">
+          <p>📧 Email: support@scm.site &nbsp; | &nbsp; ☎️ Phone: +123-456-7890</p>
+          <p>
+            Follow us on
+            <a href="#" class="text-blue-500 hover:underline">Twitter</a>,
+            <a href="#" class="text-blue-500 hover:underline">LinkedIn</a>, and
+            <a href="#" class="text-blue-500 hover:underline">GitHub</a>
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+    <script>console.log("About page loaded.");</script>
+  </body>
+</html>
