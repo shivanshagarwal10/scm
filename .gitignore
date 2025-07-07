@@ -1,4 +1,3 @@
-# Ignore secrets
 src/main/resources/application.properties
 
 # Java / Gradle / Maven ignores
