@@ -1,5 +1,4 @@
-# Sensitive files
-.env
+# Ignore application properties (contains DB and email creds)
 src/main/resources/application.properties
 
 # Java / Gradle / Maven ignores
@@ -17,6 +16,6 @@ build/
 *.iml
 *.swp
 
-# macOS system files
+# Optional
 .DS_Store
-
+.env
