@@ -1,3 +1,22 @@
+# Java / Gradle / Maven ignores
+*.class
+*.log
+*.jar
+*.war
+*.ear
+target/
+build/
+.gradle/
+
+# IDE settings
+.idea/
+*.iml
+*.swp
+
+# Optional
+.DS_Store
+.env
+
 src/main/resources/application.properties
 
 # Java / Gradle / Maven ignores
