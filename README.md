@@ -69,7 +69,6 @@ smart-contact-manager/
 
 ### ⚙️ Setup
 
-```bash
 git clone https://github.com/shivanshagarwal10/scm.git
 cd scm
 
@@ -98,3 +97,10 @@ You can find the full internship + project report in /docs/.
 📄 License
 This project is for educational & demonstration purposes. You may fork it or use ideas with proper credit.
 
+
+Java Developer | Full-Stack Enthusiast
+
+• LinkedIn -> https://www.linkedin.com/in/shivansh-agarwal-887657234/ 
+• GitHub -> https://github.com/shivanshagarwal10
+
+SHIVANSH AGARWAL
